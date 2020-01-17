@@ -1,0 +1,26 @@
+.partners {
+  background: #404149;
+
+  &__headline {
+    font: 500 36px/53px "Oswald", normal;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 100px 0 60px 0;
+  }
+
+  &__cards {
+    padding-bottom: 100px;
+  }
+
+  &__image {
+    transition: 0.5s;
+
+    &:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+      background: #58595f;
+      border-radius: 100%;
+    }
+  }
+}

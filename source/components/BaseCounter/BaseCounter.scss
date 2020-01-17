@@ -1,0 +1,58 @@
+.counter {
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 60%;
+  min-height: 300px;
+  height: auto;
+  z-index: 5;
+  bottom:-150px;
+
+  &__wrapper {
+    background-color: #fff;
+    padding: 57px 130px;
+
+    @media (max-width: 1280px) {
+      padding: 30px 90px;
+    }
+  }
+
+  &__score {
+    font: 500 72px/107px "Oswald", normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F7654A;
+  }
+
+  &__title {
+    font: 500 36px/53px "Oswald", normal;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    font: 500 18px/27px "Oswald", normal;
+    color: #999;
+  }
+
+  @media (max-width: 1280px) {
+    &__score {
+      font: 500 50px/87px "Oswald", normal;
+      text-align: center;
+      text-transform: uppercase;
+      color: #F7654A;
+    }
+  
+    &__title {
+      font: 500 25px/42px "Oswald", normal;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  
+    &__text {
+      font: 500 12px/23x "Oswald", normal;
+      color: #999;
+    }
+  }
+}

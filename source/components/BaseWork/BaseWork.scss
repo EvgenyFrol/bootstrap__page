@@ -1,0 +1,40 @@
+.work {
+  margin-top: 150px;
+  margin-bottom: 150px;
+
+  &__image {
+    width: 60px;
+    height: 40px;
+    margin: 59px auto 15px auto;
+  }
+
+  &__card {
+    width: 350px;
+    height: 250px;
+    border: 1px solid transparent;
+    transition: 0.5s;
+
+    &:hover {
+      border-color: #000;
+      border-radius: 50%;
+      cursor: pointer;
+      transform: scale(1.05);
+      background: rgb(236, 235, 235);
+    }
+  }
+
+  &__desc {
+    font: bold 21px/31px "Oswald", normal;
+    color: #000;
+    text-transform: uppercase;
+    margin: 15px 92px 59px 92px;
+  }
+
+  &__title {
+    font: bold 36px/53px "Oswald", normal;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+}

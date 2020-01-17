@@ -1,0 +1,46 @@
+- var menuLinks = [
+-   {
+-     name: 'Проекты',
+-     link: '#projects',
+-   },
+-   {
+-     name: 'Ваши предложения',
+-     link: '#toSend',
+-   },
+-   {
+-     name: 'Чем мы занимаемся?',
+-     link: '#work',
+-   },
+-   {
+-     name: 'Галерея',
+-     link: '#slider',
+-   },
+-   {
+-     name: 'Ответы на вопросы',
+-     link: '#accordionExample',
+-   },
+-   {
+-     name: 'Наши партнеры',
+-     link: '#partners',
+-   },
+-   {
+-     name: 'Отзывы',
+-     link: '#comments',
+-   },
+-   {
+-     name: 'Обратная связь',
+-     link: '#feedback',
+-   },
+-   {
+-     name: 'Контакты',
+-     link: '#contacts',
+-   }
+- ]
+
+.menu 
+  .menu__headline
+    h2.menu__title наша строительная компания
+    img.js-toggleMenu.menu__image(src="/content/close.png" alt="menu close")
+  each item in menuLinks
+    a.menu__link(href= item.link)
+      p.menu__name= item.name

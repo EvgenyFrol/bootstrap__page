@@ -1,0 +1,11 @@
+.video-wrapper#showScroll
+  .video-background-holder
+    .video-background-overlay
+      video.video__background(playsinline='playsinline', autoplay='autoplay', muted='muted', loop='loop')
+        source(src='/content/rain.mp4', type='video/mp4')
+    .video-background-content.container.h-100
+        .d-flex.h-100.text-center.align-items-center
+          .w-100.text-white
+            h1.display-4 РЕАЛИЗУЕМ КРУПНЕЙШИЕ</br> ПРОЕКТЫ В РОССИИ
+            p.lead стадионы, газопроводы, мосты, дамбы
+  include  ../BaseCounter/BaseCounter.pug

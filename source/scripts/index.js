@@ -1,0 +1,16 @@
+import '../components/BaseBanner/BaseBanner';
+import '../components/BaseHeader/BaseHeader';
+import '../components/BaseMenu/BaseMenu';
+import '../components/BaseCounter/BaseCounter';
+import '../components/BaseProjects/BaseProjects';
+import '../components/BaseSend/BaseSend';
+import '../components/BaseWork/BaseWork';
+import '../components/BaseSlider/BaseSlider';
+import '../components/BaseAccordion/BaseAccordion';
+import '../components/BasePartners/BasePartners';
+import '../components/BaseComments/BaseComments';
+import '../components/BaseFeedback/BaseFeedback';
+import '../components/BaseContacts/BaseContacts';
+import '../components/BaseFooter/BaseFooter';
+import '../components/BaseSendPopup/BaseSendPopup';
+import '../components/BaseFeedbackPopup/BaseFeedbackPopup';

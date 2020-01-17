@@ -1,0 +1,22 @@
+.container-fluid.p-0#slider
+  .carousel.slide#carouselExampleIndicators(data-ride="carousel")
+    ol.carousel-indicators
+      li.active(data-target="#carouselExampleIndicators" data-slide-to="0")
+      li(data-target="#carouselExampleIndicators" data-slide-to="1")
+      li(data-target="#carouselExampleIndicators" data-slide-to="2")
+      li(data-target="#carouselExampleIndicators" data-slide-to="3")
+    .carousel-inner
+      .carousel-item.active
+        img.d-block.w-100(src="https://cavendishmaxwell.com/resources/uploads/2018/10/q3-2018-dubai-market-report.jpg" alt="slide")
+      .carousel-item
+        img.d-block.w-100(src="https://dantk.ru/media/uploads/123.jpg" alt="slide")
+      .carousel-item
+        img.d-block.w-100(src="https://cavendishmaxwell.com/resources/uploads/2015/06/q2-2015-dubai-residential-market-report.jpg" alt="slide")
+      .carousel-item
+        img.d-block.w-100(src="https://s3.files.enjourney.ru/upload/3b5aeb1d04fad54eeeed3a0377647590/1920x0/9ffbc7ae15727cd8a857f25fbe62ee55.jpg" alt="slide")
+    a.carousel-control-prev(href="#carouselExampleIndicators" role="button" data-slide="prev")
+      span.carousel-control-prev-icon(aria-hidden="true")
+      span.sr-only Previous
+    a.carousel-control-next(href="#carouselExampleIndicators" role="button" data-slide="next")
+      span.carousel-control-next-icon(aria-hidden="true")
+      span.sr-only Next

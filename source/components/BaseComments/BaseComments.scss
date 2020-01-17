@@ -1,0 +1,41 @@
+.comments {
+  margin-bottom: 150px;
+
+  &__headline {
+    font: bold 36px/53px "Oswald", normal;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 150px auto 60px auto;
+  }
+
+  &__card {
+    transition: 0.5s;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+    }
+  }
+
+  &__text {
+    font: normal 14px/21px "Open Sans", normal;
+    color: #999;
+    margin: 20px 20px 38px 20px;
+  }
+
+  &__logo {
+    margin-left: 20px;
+    transform: rotate(0deg);
+  }
+
+  &__title {
+    font: bold 21px/31px "Oswald", normal;
+    color: #000;
+
+    &--span {
+      font: bold 21px/31px "Oswald", normal;
+      color: #F7654A;
+    }
+  }
+}

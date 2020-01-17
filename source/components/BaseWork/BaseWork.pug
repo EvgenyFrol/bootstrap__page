@@ -1,0 +1,36 @@
+- var works = [
+-   {
+-     name: "Строительство офисных зданий",
+-     image: "/content/work__logo.svg"
+-   },
+-   {
+-     name: "Строительство офисных зданий",
+-     image: "/content/work__logo.svg"
+-   },
+-   {
+-     name: "Строительство офисных зданий",
+-     image: "/content/work__logo.svg"
+-   },
+-   {
+-     name: "Строительство офисных зданий",
+-     image: "/content/work__logo.svg"
+-   },
+-   {
+-     name: "Строительство офисных зданий",
+-     image: "/content/work__logo.svg"
+-   },
+-   {
+-     name: "Строительство офисных зданий",
+-     image: "/content/work__logo.svg"
+-   },
+- ]
+
+.work#work
+  h2.work__title чем мы занимаемся?
+  .container-fluid.p-1
+    .container
+      .row.text-center.justify-content-center
+        each item in works
+          .work__card.col-xs-12.col-sm-4.col-lg-4
+            img.work__image.w-100(src= item.image alt="work__logo")
+            h3.work__desc= item.name

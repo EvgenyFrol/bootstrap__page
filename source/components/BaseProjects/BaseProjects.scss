@@ -1,0 +1,65 @@
+.projects {
+  background: #fff;
+  z-index: 2;
+
+
+  &__wrapper {
+    margin-top: 250px;
+    margin-bottom: 150px;
+
+    .projects__headline {
+      font: 500 36px/53px "Oswald", normal;
+      color: #404149;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .projects__card {
+
+      .projects__block {
+        width: 55px;
+        height: 6px;
+        background: #F7654A;
+        margin-top: 45px;
+        margin-bottom: 15px;
+        transition: width 1s ease;
+      }
+
+      .projects__title {
+        font: 500 24px/36px "Oswald", normal;
+        color: #404149;
+        text-align: left;
+        margin-bottom: 20px;
+      }
+
+      .projects__text {
+        font: normal 16px/22px "Open Sans", normal;
+        color: #999999;
+        text-align: left;
+        transition: transform 1s ease;
+        transition: color 1s ease;
+      }
+
+      .projects__image {
+      transition: transform 1s ease;
+      }
+
+      &:hover {
+
+        .projects__image {
+          transform: scale(1.05);
+        }
+
+        .projects__block {
+          width: 100%;
+        }
+
+        .projects__text {
+          transform: scale(1.01);
+          color: #000;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+#accordionExample.accordion
+  h2.accordion__headline ответы на вопросы
+  .container
+    .card.accordion__card
+      #headingOne.card-header.card__header
+        h5.mb-0
+          button.btn.btn-link.accordion__title(type='button', data-toggle='collapse', data-target='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
+            img.accordion__icon(src="/content/Polygon.png" alt="acc__icon")
+            | РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?
+      #collapseOne.collapse(aria-labelledby='headingOne', data-parent='#accordionExample')
+        .card-body.card__body
+          | Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+    .card.accordion__card
+      #headingTwo.card-header.card__header
+        h5.mb-0
+          button.btn.btn-link.collapsed.accordion__title(type='button', data-toggle='collapse', data-target='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo')
+            img.accordion__icon(src="/content/Polygon.png" alt="acc__icon")
+            | РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?
+      #collapseTwo.collapse(aria-labelledby='headingTwo', data-parent='#accordionExample')
+        .card-body.card__body
+          | Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+    .card.accordion__card
+      #headingThree.card-header.card__header
+        h5.mb-0
+          button.btn.btn-link.collapsed.accordion__title(type='button', data-toggle='collapse', data-target='#collapseThree', aria-expanded='false', aria-controls='collapseThree')
+            img.accordion__icon(src="/content/Polygon.png" alt="acc__icon")
+            | РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?
+      #collapseThree.collapse(aria-labelledby='headingThree', data-parent='#accordionExample')
+        .card-body.card__body
+          | Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+    .card.accordion__card
+      #headingThree.card-header.card__header
+        h5.mb-0
+          button.btn.btn-link.collapsed.accordion__title(type='button', data-toggle='collapse', data-target='#collapseFour', aria-expanded='false', aria-controls='collapseFour')
+            img.accordion__icon(src="/content/Polygon.png" alt="acc__icon")
+            | РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?
+      #collapseFour.collapse(aria-labelledby='headingThree', data-parent='#accordionExample')
+        .card-body.card__body
+          | Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
