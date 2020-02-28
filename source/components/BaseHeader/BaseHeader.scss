@@ -1,0 +1,39 @@
+.header {
+  width: 100%;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px;
+  }
+  
+  &__logo {
+    width: auto;
+    height: auto;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__link {
+    font: normal 18px/22px "Roboto", normal;
+    margin: 0 5px;
+
+    &:hover {
+      cursor: pointer;
+
+      .header__item {
+        color: #0071B2;
+      }
+    }
+  }
+
+  &__item {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+  }
+}

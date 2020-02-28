@@ -1,0 +1,47 @@
+extends ../layout/layout.pug
+block append head
+  title Главная
+block append body
+  main.js-slider-parent
+    include ../components/BaseHeader/BaseHeader.pug
+    include ../components/BaseDesc/BaseDesc.pug
+    section.desc
+      .desk
+        .desc__wrapper
+          .desc__banner
+            h1.desc__title <strong>дизайн-система fishbone</strong> - конструктор для быстрой разработки цифровых продуктов
+            .desc__image
+              img(src="/content/Vector.png" alt="vector") 
+          .desc__links
+            +desc({
+              bg: "background: #206C97;",
+              title: "Описание дизайн-системы",
+              icon: "/content/card_logo1.png",
+              alt: "design system",
+              text: "Как использовать дизайн-систему, технологии, тематизация, подробное описание компонентов",
+              link: "#"
+            })
+            +desc({
+              bg: "background: #0071B2;",
+              title: "UI-кит в Figma",
+              icon: "/content/card_logo2.png",
+              alt: "ui figma",
+              text: "Набор компонентов для создания макета.Отправьте эту ссылку дизайнеру",
+              link: "#"
+            })
+            +desc({
+              bg: "background: #0096EB;",
+              title: "UI-кит на GitHub",
+              icon: "/content/github_logo.png",
+              alt: "ui figma",
+              text: "Можно менять параметры и смотреть, как выглядят компоненты в разных цветах и размерах",
+              link: "#"
+            })
+            +desc({
+              bg: "background: #14A9FF;",
+              title: "Проект на GitHub ",
+              icon: "/content/github_logo.png",
+              alt: "ui figma",
+              text: "React + Typescript + PostCSS. Отправьте эту ссылку разработчику",
+              link: "#"
+            })

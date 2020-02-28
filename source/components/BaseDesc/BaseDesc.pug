@@ -1,0 +1,11 @@
+mixin desc(desc)
+  .desc__card(style= desc.bg)
+    .desc__card-image
+      img(src= desc.icon alt= desc.alt)
+    h3.desc__card-title= desc.title
+    p.desc__card-desc.link-text= desc.text
+    .desc-link
+      .link-logo
+        img(src="/content/link-logo.png" alt="link icon")
+      .link-title
+        a.link-text(href= desc.link alt="#") Посмотреть описание
