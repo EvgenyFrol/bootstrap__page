@@ -1,7 +1,43 @@
 .desc {
   
   &__card {
-    width: auto;
+    width: 25%;
     padding: 60px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
+
+  &__card-image {
+    margin: 0 0 20px 0;
+  }
+
+  &__card-title {
+    font: bold 20px/22px "Segoe UI", normal;
+    color: #fff;
+    margin: 0 0 20px 0;
+  }
+
+  &__card-desc {
+    font:normal 14px/18px "Segoe UI", sans-serif;
+    color: #fff;
+  }
+
+  .desc-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .link-logo {
+    width: 50%;
+    margin: 0 10px 0 0;
+  }
+
+  .link-text {
+    font:normal 14px/18px "Segoe UI", sans-serif;
+    color: #fff;
+    text-decoration: none;
+  }
+
 }
