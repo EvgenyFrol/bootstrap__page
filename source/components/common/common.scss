@@ -30,7 +30,7 @@ body {
   .wrapper:after {
     content: '';
     width: 32%;
-    height: 100vh;
+    height: 100%;
     background: rgba(0, 113, 179, 0.8);
     position: absolute;
     left: 0;
@@ -77,8 +77,13 @@ main {
   }
 
   &__headline {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__headline-wrap {
     width: 68%;
-    float: right;
     padding: 92px 172px 70px 108px;
   }
 
@@ -92,5 +97,56 @@ main {
     font: normal 15px/24px "Segoe UI", normal;
     color: #4F4F4F;
     margin-bottom: 20px;
+  }
+}
+
+.about {
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  
+  }
+
+  &__title-block {
+    width: 32%;
+    padding: 60px 30px 10px 30px;
+  }
+
+  &__title {
+    font: bold 29px/45px "Segoe UI", normal;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 68%;
+    padding: 30px 60px 92px 108px;
+  }
+}
+
+.questions {
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    width: 32%;
+    padding: 60px 30px 10px 30px;
+  }
+
+  &__title-text {
+    font: bold 29px/45px "Segoe UI", normal;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  &__accordion {
+    width: 68%;
+    padding: 30px 60px 92px 108px;
   }
 }
