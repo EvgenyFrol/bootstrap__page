@@ -1,3 +1,57 @@
 .questions {
   
+  &__card {
+    border-top: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &:hover {
+      .questions__headline {
+        cursor: pointer;
+      }
+
+      .questions__icon {
+        cursor: pointer;
+      }
+    }
+  }
+  
+  &__name {
+    font: bold 18px/27px "Segoe UI", normal;
+    color: rgba(0, 113, 179, 0.8);
+    margin: 30px 0;
+  }
+
+  &__body {
+    overflow: hidden;
+    height: 0;
+    transition: all 0.1s ease;
+  }
+
+  &__open {
+    .questions__body {
+      padding: 10px 0 5px 0;
+      overflow: visible !important;
+      height: auto !important;
+    }
+
+    .questions__logo {
+      transform: rotate(0deg);
+   }
+  }
+
+  &__text {
+    font: normal 16px/24px "Segoe UI", normal;
+    color: #4F4F4F;
+  }
+
+  &__logo {
+     transition: transform 0.3s ease;
+     transform: rotate(180deg);
+  }
 }
