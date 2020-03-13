@@ -71,9 +71,28 @@ main {
     padding: 60px 30px 10px 30px;
   }
 
-  &__links {
+  &__contWrap {
     width: 68%;
+  }
+
+  &__contText {
+    width: 75%;
+    padding: 30px 60px 92px 108px;
+  }
+
+  &__desc {
+    font: normal 15px/24px "Segoe UI", normal;
+    color: #4F4F4F;
+  }
+
+  &__links {
     display: flex;
+    width: 68%;
+  }
+
+  &__linksDubl {
+    display: flex;
+    height: 450px;
   }
 
   &__headline {

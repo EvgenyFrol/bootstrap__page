@@ -7,8 +7,10 @@ html(lang='ru', dir='ltr')
   body
     .wrapper
       block header
+        include ../components/BaseHeader/BaseHeader.pug
       block body
       block footer
+        include ../components/BaseFooter/BaseFooter.pug
 
     script(src="https://unpkg.com/swiper/js/swiper.js")
     script(src="https://unpkg.com/swiper/js/swiper.min.js")

@@ -2,8 +2,7 @@ extends ../layout/layout.pug
 block append head
   title Главная
 block append body
-  main.js-slider-parent
-    include ../components/BaseHeader/BaseHeader.pug
+  main.js-slider-parent    
     include ../components/BaseDesc/BaseDesc.pug
     section.desc
       .desk
@@ -104,3 +103,44 @@ block append body
             title: "Как вносить изменения в дизайн-систему",
             desc: "Да, дизайн-система Fishbone — это продукт с открытым исходным кодом, его может использовать кто угодно, без ограничений. Компоненты для создания макетов в Figma Исходный код на GitHub."
           })
+    section.desc
+      .desk
+        .desc__wrapper
+          .desc__banner
+            h1.desc__title <strong>Берите и пользуйтесь</strong> 
+          .desc__contWrap 
+            .desc__contText
+              p.desc__desc Здесь собрано всё, что вам может понадобиться: ссылки на исходники и документация. Если что-то непонятно, пишите нам через форму внизу страницы
+            .desc__linksDubl
+              +desc({
+                bg: "background: #206C97;",
+                title: "Описание дизайн-системы",
+                icon: "/content/card_logo1.png",
+                alt: "design system",
+                text: "Как использовать дизайн-систему, технологии, тематизация, подробное описание компонентов",
+                link: "#"
+              })
+              +desc({
+                bg: "background: #0071B2;",
+                title: "UI-кит в Figma",
+                icon: "/content/card_logo2.png",
+                alt: "ui figma",
+                text: "Набор компонентов для создания макета. Отправьте эту ссылку дизайнеру",
+                link: "#"
+              })
+              +desc({
+                bg: "background: #0096EB;",
+                title: "UI-кит на GitHub",
+                icon: "/content/github_logo.png",
+                alt: "ui github",
+                text: "Можно менять параметры и смотреть, как выглядят компоненты в разных цветах и размерах",
+                link: "#"
+              })
+              +desc({
+                bg: "background: #14A9FF;",
+                title: "Проект на GitHub ",
+                icon: "/content/github_logo.png",
+                alt: "ui github",
+                text: "React + Typescript + PostCSS. Отправьте эту ссылку разработчику",
+                link: "#"
+              })

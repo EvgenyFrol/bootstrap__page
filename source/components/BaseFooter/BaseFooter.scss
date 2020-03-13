@@ -1,0 +1,76 @@
+.footer {
+  background: #434343;
+
+  &__wrapper {
+    display: flex;
+  }
+
+  &__desc {
+    width: 32%;
+    padding: 68px 29px 95px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__text {
+    font: bold 36px/54px "Segoe UI", normal;
+    text-transform: uppercase;
+    color: #FFF;
+  }
+
+  &__buttons {
+    display: flex;
+  }
+
+  &__button {
+    width: 108px;
+    height: 48px;
+    background: #0096EB;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  &__buttonText {
+    font: normal 18px/27px "Segoe UI", normal;
+    color: #FFF;
+    text-transform: uppercase;
+  }
+
+  &__feedback {
+    width: 68%;
+    padding: 79px 114px;
+  }
+
+  .textarea {
+    background: #434343;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 18px 20px 65px 20px;
+    width: 427px;
+    color: #fff;
+  }
+
+  .email {
+    margin: 40px 0;
+    background: #434343;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 5px;
+    color: #fff;
+  }
+
+  .emailButton {
+    padding: 10px 20px;
+    background: #c4c4c4;
+    border-radius: 5px;
+    width: 154px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
