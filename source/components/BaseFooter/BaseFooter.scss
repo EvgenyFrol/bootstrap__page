@@ -14,7 +14,7 @@
   }
 
   &__text {
-    font: bold 36px/54px "Segoe UI", normal;
+    font: bold 36px/48px "Segoe UI", sans-serif;
     text-transform: uppercase;
     color: #FFF;
   }
@@ -32,6 +32,11 @@
     justify-content: center;
     align-items: center;
     margin-right: 20px;
+
+    &:hover {
+      background: rgb(0, 103, 163);
+      cursor: pointer;
+    }
   }
 
   &__buttonText {
@@ -55,7 +60,6 @@
   }
 
   .email {
-    margin: 40px 0;
     background: #434343;
     border: none;
     border-bottom: 1px solid #fff;
@@ -72,5 +76,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 70px;
+  }
+
+  .emailButtonText {
+    font: normal 18px/27px "Segoe UI", normal;
+    color: #000;
+  }
+
+  &__emailDisc {
+    font: normal 12px/18px "Segoe UI", normal;
+    color: #BDBDBD;
+    text-align: center;
+  }
+
+  &__emailForm {
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
   }
 }
